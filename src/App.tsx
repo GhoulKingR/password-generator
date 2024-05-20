@@ -3,6 +3,7 @@ import { Slider } from "@mui/material";
 import Checkbox from "./Checkbox";
 import StrengthIndicator from "./StrengthIndicator";
 import { generatePassword } from "./generatepassword";
+import React from "react";
 
 function App() {
   const [password, setPassword] = useState("PTx1f5DaFX");
@@ -19,7 +20,7 @@ function App() {
   }
 
   return (
-    <div className="my-16 mx-4">
+    <div className="my-16 mx-4 md:mt-[133px]">
       <header className="text-base text-center text-[#817D92] mb-4 md:text-2xl">
         Password Generator
       </header>
