@@ -3,7 +3,6 @@ import { Slider } from "@mui/material";
 import Checkbox from "./Checkbox";
 import StrengthIndicator from "./StrengthIndicator";
 import { generatePassword } from "./generatepassword";
-import React from "react";
 
 function App() {
   const [password, setPassword] = useState("PTx1f5DaFX");
